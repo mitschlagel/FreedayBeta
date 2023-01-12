@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1028164099152-ngp1a0aggr4ecip1slr1kjrfcji3n8a9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1028164099152-ngp1a0aggr4ecip1slr1kjrfcji3n8a9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC9sR8rGY3ZbGMlPit2v3lusw06gCe2T_8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1028164099152</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.spencer.Freeday</string>
+	<key>PROJECT_ID</key>
+	<string>freeday-17e76</string>
+	<key>STORAGE_BUCKET</key>
+	<string>freeday-17e76.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1028164099152:ios:a3b47f7d2177fdb9778555</string>
+</dict>
+</plist>
