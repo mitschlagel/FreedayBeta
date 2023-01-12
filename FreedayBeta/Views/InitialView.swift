@@ -1,6 +1,6 @@
 //
 //  InitialView.swift
-//  FreedayPrototype
+//  FreedayBeta
 //
 //  Created by Spencer Jones on 1/3/23.
 //

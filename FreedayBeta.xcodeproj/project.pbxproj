@@ -18,7 +18,7 @@
 		F75714A428260D4C00F9E70E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75714A328260D4C00F9E70E /* ProfileView.swift */; };
 		F75714A62826135900F9E70E /* ProfileOptionsMenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75714A52826135900F9E70E /* ProfileOptionsMenuContent.swift */; };
 		F75714A82826180600F9E70E /* ProfileOptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75714A72826180600F9E70E /* ProfileOptionsMenu.swift */; };
-		F78ED2E02820D3D9008D563F /* FreedayPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2DF2820D3D9008D563F /* FreedayPrototypeApp.swift */; };
+		F78ED2E02820D3D9008D563F /* FreedayBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2DF2820D3D9008D563F /* FreedayBetaApp.swift */; };
 		F78ED2E22820D3D9008D563F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2E12820D3D9008D563F /* LoginView.swift */; };
 		F78ED2E42820D3DB008D563F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78ED2E32820D3DB008D563F /* Assets.xcassets */; };
 		F78ED2E72820D3DB008D563F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78ED2E62820D3DB008D563F /* Preview Assets.xcassets */; };
@@ -57,8 +57,8 @@
 		F75714A328260D4C00F9E70E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F75714A52826135900F9E70E /* ProfileOptionsMenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionsMenuContent.swift; sourceTree = "<group>"; };
 		F75714A72826180600F9E70E /* ProfileOptionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionsMenu.swift; sourceTree = "<group>"; };
-		F78ED2DC2820D3D9008D563F /* FreedayPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedayPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78ED2DF2820D3D9008D563F /* FreedayPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayPrototypeApp.swift; sourceTree = "<group>"; };
+		F78ED2DC2820D3D9008D563F /* FreedayBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedayBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78ED2DF2820D3D9008D563F /* FreedayBetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayBetaApp.swift; sourceTree = "<group>"; };
 		F78ED2E12820D3D9008D563F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F78ED2E32820D3DB008D563F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78ED2E62820D3DB008D563F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -118,9 +118,9 @@
 		F78ED2D32820D3D9008D563F = {
 			isa = PBXGroup;
 			children = (
-				F78ED2DE2820D3D9008D563F /* FreedayPrototype */,
-				F78ED2EF2820D3DC008D563F /* FreedayPrototypeTests */,
-				F78ED2F92820D3DC008D563F /* FreedayPrototypeUITests */,
+				F78ED2DE2820D3D9008D563F /* FreedayBeta */,
+				F78ED2EF2820D3DC008D563F /* FreedayBetaTests */,
+				F78ED2F92820D3DC008D563F /* FreedayBetaUITests */,
 				F78ED2DD2820D3D9008D563F /* Products */,
 				F73E3F372963E41500E112CC /* Frameworks */,
 			);
@@ -129,14 +129,14 @@
 		F78ED2DD2820D3D9008D563F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F78ED2DC2820D3D9008D563F /* FreedayPrototype.app */,
+				F78ED2DC2820D3D9008D563F /* FreedayBeta.app */,
 				F78ED2EC2820D3DC008D563F /* FreedayPrototypeTests.xctest */,
 				F78ED2F62820D3DC008D563F /* FreedayPrototypeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F78ED2DE2820D3D9008D563F /* FreedayPrototype */ = {
+		F78ED2DE2820D3D9008D563F /* FreedayBeta */ = {
 			isa = PBXGroup;
 			children = (
 				F73E3F5429709BCC00E112CC /* Info.plist */,
@@ -146,11 +146,11 @@
 				F78ED31128223068008D563F /* ViewModels */,
 				F78ED30E28222DD6008D563F /* Views */,
 				F78ED30B28222CC5008D563F /* Models */,
-				F78ED2DF2820D3D9008D563F /* FreedayPrototypeApp.swift */,
+				F78ED2DF2820D3D9008D563F /* FreedayBetaApp.swift */,
 				F78ED2E32820D3DB008D563F /* Assets.xcassets */,
 				F78ED2E52820D3DB008D563F /* Preview Content */,
 			);
-			path = FreedayPrototype;
+			path = FreedayBeta;
 			sourceTree = "<group>";
 		};
 		F78ED2E52820D3DB008D563F /* Preview Content */ = {
@@ -161,21 +161,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F78ED2EF2820D3DC008D563F /* FreedayPrototypeTests */ = {
+		F78ED2EF2820D3DC008D563F /* FreedayBetaTests */ = {
 			isa = PBXGroup;
 			children = (
 				F78ED2F02820D3DC008D563F /* FreedayPrototypeTests.swift */,
 			);
-			path = FreedayPrototypeTests;
+			path = FreedayBetaTests;
 			sourceTree = "<group>";
 		};
-		F78ED2F92820D3DC008D563F /* FreedayPrototypeUITests */ = {
+		F78ED2F92820D3DC008D563F /* FreedayBetaUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F78ED2FA2820D3DC008D563F /* FreedayPrototypeUITests.swift */,
 				F78ED2FC2820D3DC008D563F /* FreedayPrototypeUITestsLaunchTests.swift */,
 			);
-			path = FreedayPrototypeUITests;
+			path = FreedayBetaUITests;
 			sourceTree = "<group>";
 		};
 		F78ED30B28222CC5008D563F /* Models */ = {
@@ -238,7 +238,7 @@
 				F73E3F3A2963E42700E112CC /* FirebaseAnalytics */,
 			);
 			productName = FreedayPrototype;
-			productReference = F78ED2DC2820D3D9008D563F /* FreedayPrototype.app */;
+			productReference = F78ED2DC2820D3D9008D563F /* FreedayBeta.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F78ED2EB2820D3DC008D563F /* FreedayPrototypeTests */ = {
@@ -300,7 +300,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F78ED2D72820D3D9008D563F /* Build configuration list for PBXProject "FreedayPrototype" */;
+			buildConfigurationList = F78ED2D72820D3D9008D563F /* Build configuration list for PBXProject "FreedayBeta" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -366,7 +366,7 @@
 				F73E3F342963E03700E112CC /* AuthService.swift in Sources */,
 				F73E3F3F2964C8A300E112CC /* InitialView.swift in Sources */,
 				F75714A428260D4C00F9E70E /* ProfileView.swift in Sources */,
-				F78ED2E02820D3D9008D563F /* FreedayPrototypeApp.swift in Sources */,
+				F78ED2E02820D3D9008D563F /* FreedayBetaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,11 +526,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FreedayPrototype/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FreedayBeta/Preview Content\"";
 				DEVELOPMENT_TEAM = 2X792CPSD3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FreedayPrototype/Info.plist;
+				INFOPLIST_FILE = FreedayBeta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -542,7 +542,7 @@
 				);
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.spencer.Freeday;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FreedayBeta;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -559,11 +559,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FreedayPrototype/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FreedayBeta/Preview Content\"";
 				DEVELOPMENT_TEAM = 2X792CPSD3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FreedayPrototype/Info.plist;
+				INFOPLIST_FILE = FreedayBeta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -575,7 +575,7 @@
 				);
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.spencer.Freeday;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FreedayBeta;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -664,7 +664,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F78ED2D72820D3D9008D563F /* Build configuration list for PBXProject "FreedayPrototype" */ = {
+		F78ED2D72820D3D9008D563F /* Build configuration list for PBXProject "FreedayBeta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F78ED2FE2820D3DC008D563F /* Debug */,

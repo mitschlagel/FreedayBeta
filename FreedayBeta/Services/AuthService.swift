@@ -1,6 +1,6 @@
 //
 //  AuthService.swift
-//  FreedayPrototype
+//  FreedayBeta
 //
 //  Created by Spencer Jones on 1/2/23.
 //

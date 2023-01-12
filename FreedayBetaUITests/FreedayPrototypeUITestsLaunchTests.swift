@@ -1,13 +1,13 @@
 //
-//  FreedayPrototypeUITestsLaunchTests.swift
-//  FreedayPrototypeUITests
+//  FreedayBetaUITestsLaunchTests.swift
+//  FreedayBetaUITests
 //
 //  Created by Spencer Jones on 5/2/22.
 //
 
 import XCTest
 
-class FreedayPrototypeUITestsLaunchTests: XCTestCase {
+class FreedayBetaUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

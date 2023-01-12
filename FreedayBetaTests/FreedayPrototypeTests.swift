@@ -1,14 +1,14 @@
 //
-//  FreedayPrototypeTests.swift
-//  FreedayPrototypeTests
+//  FreedayBetaTests.swift
+//  FreedayBetaTests
 //
 //  Created by Spencer Jones on 5/2/22.
 //
 
 import XCTest
-@testable import FreedayPrototype
+@testable import FreedayBeta
 
-class FreedayPrototypeTests: XCTestCase {
+class FreedayBetaTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

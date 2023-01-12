@@ -1,6 +1,6 @@
 //
 //  ProfileView.swift
-//  FreedayPrototype
+//  FreedayBeta
 //
 //  Created by Spencer Jones on 5/6/22.
 //

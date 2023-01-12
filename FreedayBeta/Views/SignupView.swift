@@ -1,6 +1,6 @@
 //
 //  SignupView.swift
-//  FreedayPrototype
+//  FreedayBeta
 //
 //  Created by Spencer Jones on 5/3/22.
 //

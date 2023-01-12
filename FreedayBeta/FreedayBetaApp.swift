@@ -1,6 +1,6 @@
 //
-//  FreedayPrototypeApp.swift
-//  FreedayPrototype
+//  FreedayBetaApp.swift
+//  FreedayBeta
 //
 //  Created by Spencer Jones on 5/2/22.
 //
@@ -18,7 +18,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct FreedayPrototypeApp: App {
+struct FreedayBetaApp: App {
     
     @StateObject var session = SessionManager()
     
