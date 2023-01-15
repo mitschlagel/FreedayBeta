@@ -22,11 +22,11 @@
 		F78ED2E22820D3D9008D563F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2E12820D3D9008D563F /* LoginView.swift */; };
 		F78ED2E42820D3DB008D563F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78ED2E32820D3DB008D563F /* Assets.xcassets */; };
 		F78ED2E72820D3DB008D563F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78ED2E62820D3DB008D563F /* Preview Assets.xcassets */; };
-		F78ED2F12820D3DC008D563F /* FreedayPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2F02820D3DC008D563F /* FreedayPrototypeTests.swift */; };
-		F78ED2FB2820D3DC008D563F /* FreedayPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2FA2820D3DC008D563F /* FreedayPrototypeUITests.swift */; };
-		F78ED2FD2820D3DC008D563F /* FreedayPrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2FC2820D3DC008D563F /* FreedayPrototypeUITestsLaunchTests.swift */; };
+		F78ED2FB2820D3DC008D563F /* FreedayBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2FA2820D3DC008D563F /* FreedayBetaUITests.swift */; };
+		F78ED2FD2820D3DC008D563F /* FreedayBetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED2FC2820D3DC008D563F /* FreedayBetaUITestsLaunchTests.swift */; };
 		F78ED30A2821A25C008D563F /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED3092821A25C008D563F /* SignupView.swift */; };
 		F78ED30D28222CD7008D563F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78ED30C28222CD7008D563F /* User.swift */; };
+		F7A3D7A42974C26A002D4879 /* FreedayBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3D7A32974C26A002D4879 /* FreedayBetaTests.swift */; };
 		F7B726E028236FF300FA964B /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B726DF28236FF300FA964B /* SignupViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,12 +63,12 @@
 		F78ED2E32820D3DB008D563F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78ED2E62820D3DB008D563F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F78ED2EC2820D3DC008D563F /* FreedayPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedayPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78ED2F02820D3DC008D563F /* FreedayPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayPrototypeTests.swift; sourceTree = "<group>"; };
 		F78ED2F62820D3DC008D563F /* FreedayPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedayPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78ED2FA2820D3DC008D563F /* FreedayPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayPrototypeUITests.swift; sourceTree = "<group>"; };
-		F78ED2FC2820D3DC008D563F /* FreedayPrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayPrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F78ED2FA2820D3DC008D563F /* FreedayBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayBetaUITests.swift; sourceTree = "<group>"; };
+		F78ED2FC2820D3DC008D563F /* FreedayBetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayBetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F78ED3092821A25C008D563F /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		F78ED30C28222CD7008D563F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7A3D7A32974C26A002D4879 /* FreedayBetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedayBetaTests.swift; sourceTree = "<group>"; };
 		F7B726DF28236FF300FA964B /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,7 +164,7 @@
 		F78ED2EF2820D3DC008D563F /* FreedayBetaTests */ = {
 			isa = PBXGroup;
 			children = (
-				F78ED2F02820D3DC008D563F /* FreedayPrototypeTests.swift */,
+				F7A3D7A32974C26A002D4879 /* FreedayBetaTests.swift */,
 			);
 			path = FreedayBetaTests;
 			sourceTree = "<group>";
@@ -172,8 +172,8 @@
 		F78ED2F92820D3DC008D563F /* FreedayBetaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F78ED2FA2820D3DC008D563F /* FreedayPrototypeUITests.swift */,
-				F78ED2FC2820D3DC008D563F /* FreedayPrototypeUITestsLaunchTests.swift */,
+				F78ED2FA2820D3DC008D563F /* FreedayBetaUITests.swift */,
+				F78ED2FC2820D3DC008D563F /* FreedayBetaUITestsLaunchTests.swift */,
 			);
 			path = FreedayBetaUITests;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78ED2F12820D3DC008D563F /* FreedayPrototypeTests.swift in Sources */,
+				F7A3D7A42974C26A002D4879 /* FreedayBetaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78ED2FD2820D3DC008D563F /* FreedayPrototypeUITestsLaunchTests.swift in Sources */,
-				F78ED2FB2820D3DC008D563F /* FreedayPrototypeUITests.swift in Sources */,
+				F78ED2FD2820D3DC008D563F /* FreedayBetaUITestsLaunchTests.swift in Sources */,
+				F78ED2FB2820D3DC008D563F /* FreedayBetaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
