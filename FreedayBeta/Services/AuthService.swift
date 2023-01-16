@@ -27,7 +27,6 @@ class AuthService {
     }
     
     func signInUser(email: String, password: String) async throws {
-        
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
             if let error = error {
                 print("Failed, error: \(error)")

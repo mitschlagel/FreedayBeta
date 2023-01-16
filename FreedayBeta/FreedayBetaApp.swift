@@ -20,7 +20,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct FreedayBetaApp: App {
     
-    @StateObject var session = SessionManager()
+    @ObservedObject var session = SessionManager()
     
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate

@@ -69,6 +69,7 @@ struct LoginView: View {
                                         do {
                                             try await session.login(email: email, password: password)
                                             self.isLoginValid = true
+                                            session.getCurrentUser()
                                         } catch {
                                             print("ERROR")
                                         }

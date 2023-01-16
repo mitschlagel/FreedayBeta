@@ -12,11 +12,10 @@ import Foundation
 class SessionManager: ObservableObject {
     
     let authService = AuthService()
-    
-    @Published var currentUser: FirebaseAuth.User?
     @Published var loginErrorMessage: String?
+    @Published var currentUser: Firebase.User?
     
-    func login(email: String, password: String) async  throws {
+    func login(email: String, password: String) async throws {
         do {
             try await authService.signInUser(email: email, password: password)
         } catch {
@@ -25,13 +24,9 @@ class SessionManager: ObservableObject {
         
     }
     
-    func getCurrentUser() -> FirebaseAuth.User? {
-        var currentUser: FirebaseAuth.User?
-        Auth.auth().addStateDidChangeListener { auth, user in
-            if let user = user {
-                currentUser = user
-            }
+    func getCurrentUser() {
+        if let user = Auth.auth().currentUser {
+            self.currentUser = user
         }
-        return currentUser
     }
 }

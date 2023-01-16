@@ -12,6 +12,7 @@ import SwiftUI
 struct MainTabBarView: View {
     
     @EnvironmentObject var session: SessionManager
+    var user = Auth.auth().currentUser
     
     var body: some View {
         TabView {
